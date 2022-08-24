@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-1 {
+  width: 8.333333%;
+}
+
+.col-2 {
+  width: 16.666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.333333%;
+}
+
+.col-5 {
+  width: 41.666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.333333%;
+}
+
+.col-8 {
+  width: 66.666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.333333%;
+}
+
+.col-11 {
+  width: 91.666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.logo {
+  background-color: aqua;
+  padding: 1rem;
+  border: 1px solid black;
+}
+.menu {
+  background-color: rgb(121, 178, 232);
+  padding: 1rem;
+  border: 1px solid black;
+}
+.banner {
+  background-color: red;
+  padding: 4rem;
+}
+.bolum {
+  border: 1px solid black;
+  background-color: greenyellow;
+  height: calc(100vh - 330px);
+  padding: 1rem;
+}
+.containersection div {
+  background-color: orange;
+  border: 1px solid black;
+  padding: 2rem;
+}
+.footer {
+  background-color: tomato;
+  padding: 2rem;
+  border: 1px solid black;
+  /* height: auto; */
+}
